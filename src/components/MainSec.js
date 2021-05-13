@@ -1,6 +1,10 @@
 import '../style/css/MainSec.css';
 import jeju1 from '../img/jeju1.jpg';
 import jeju2 from '../img/jeju2.jpg';
+import { AiFillPhone, AiFillFacebook, AiFillInstagram,AiFillGoogleCircle } from 'react-icons/ai';
+import { GrMail } from 'react-icons/gr';
+import { MdPlace } from 'react-icons/md';
+
 
 function MainSec() {
   return ( 
@@ -24,6 +28,21 @@ function MainSec() {
               </div>
           </div>
       </section>
+      <footer className="footer">
+          <div className="footer_wrap">
+              <div className="footer1">
+                    <h1 className="footerH color">CONTACT US</h1>
+                    <p className="color"><AiFillPhone color="white" fontSize="1.4rem"/>+82 10-0000-0000</p>
+                    <p className="color"><GrMail color="white" fontSize="1.4rem"/>asfasf@gmail.com</p>
+                    <p className="color"><MdPlace color="white" fontSize="1.4rem"/>korea jeju-do</p>
+                    <div className="sns color" >
+                        <p className="icon"><AiFillFacebook color="white" fontSize="2rem"/></p>
+                        <p className="icon"><AiFillInstagram color="white" fontSize="2rem"/></p>
+                        <p className="icon"><AiFillGoogleCircle color="white" fontSize="2rem"/></p>
+                    </div>
+              </div>
+          </div>
+      </footer>
     </>
   );
 }
