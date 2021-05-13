@@ -1,28 +1,28 @@
-.MainSec {
+.section1 {
   display: flex;
   width: 100%;
   height: 90vh;
   max-width: 1000px;
   margin: 0 auto;
 }
-.MainSec .sections_wrap {
+.section1 .sections_wrap {
   width: 100%;
   max-width: 1000px;
   margin-top: 20vh;
 }
-.MainSec .sections_wrap .first_content {
+.section1 .sections_wrap .first_content {
   color: white;
   font-size: 1.3rem;
   font-weight: 700;
   transition: all 1s ease-in 10s;
 }
-.MainSec .sections_wrap .second_content {
+.section1 .sections_wrap .second_content {
   margin-top: 10px;
   color: white;
   font-size: 4rem;
   font-weight: 600;
 }
-.MainSec .sections_wrap .reserve_btn {
+.section1 .sections_wrap .reserve_btn {
   background-color: transparent;
   border: white 2px solid;
   color: white;
@@ -30,6 +30,40 @@
   padding: 20px 15px;
   margin-top: 30px;
   cursor: pointer;
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section2 .first_sections {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  padding: 5px;
+}
+.section2 .first_sections .about_jeju {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.section2 .first_sections .first_text {
+  padding: 0 20px 0 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #737576;
+}
+.section2 .second_sections {
+  display: flex;
+  padding: 40px 0 0 0px;
+  justify-content: center;
+}
+.section2 .second_sections .photoContainer .photo1 {
+  position: relative;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=MainSec.css.map */
